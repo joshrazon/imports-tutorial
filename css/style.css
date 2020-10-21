@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+h1 {
+  display: inline-block;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  margin-right: 6px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  padding: 5px 15px;
+  border-radius: 4px;
+  font-size: 22px;
+  background-color: #0278ae;
+  border: 1px solid #0278ae;
+  color: white;
+  cursor: pointer;
+
+}
+
+button:active {
+  transform: translateY(2px);
+}
