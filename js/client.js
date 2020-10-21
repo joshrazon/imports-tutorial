@@ -13,7 +13,7 @@ function renderWords() {
   // make container for first h1
   const phrase = document.querySelector('#word1');
   
-  // make container for first h1
+  // make container for second h1
   const phrase2 = document.querySelector('#word2');
   
   // Change inner text to a random item on nouns array
